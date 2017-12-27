@@ -1,7 +1,7 @@
 package Array;
 
 public class SearchRotated {
-    public int soution(int[] nums, int target){
+    public int solution(int[] nums, int target){
         int first = 0;
         //将last指向数组的最后一个元素的下一位，在求mid时防止出现死循环或遗漏
         int last = nums.length-1;
